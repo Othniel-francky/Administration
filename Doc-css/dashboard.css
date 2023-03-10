@@ -7,11 +7,32 @@
     height: 62px;
     width: 100%;
     background: #363636;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.utilisateur{
+    display: flex;
+}
+.search{
+    display: flex;
+}
+.search input{
+    height: 20px;
+    width: 300px;
+    border: 2px solid black ;
+    border-radius: 30px;
+}
+.search i{
+    position: absolute;
+    margin-left: 270px;
 }
 .longeur{
     height: 100vh;
     width: 13%;
     background: #363636;
+    
 }
 
 .first-img img{
@@ -44,4 +65,20 @@ span{
     color: white;
     font-size: 20px;
     
+}
+.icone3 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.carre1{
+    height: 150px;
+    width: 250px;
+    border: 1px solid red;
+}
+.enlong{
+    display: flex;
+}
+.car{
+    display: flex;
 }
