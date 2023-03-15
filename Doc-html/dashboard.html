@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="../Doc-css/dashboard.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-</head>
-<body>
-  <!--  <div class="parent">
+    <link rel="stylesheet" href="../Doc-css/dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--  <div class="parent">
 
 
 
@@ -91,72 +94,81 @@
 </div>
     </div>-->
 
+    <header class="header">
+        <div class="search"><input type="search" placeholder="search">
+           <i class="fa fa-search" aria-hidden="true"></i></div>
 
-
-    <div class="container">
-        <div class="menu-icon">
-         <i class="fas fa-bars header__menu"></i>
+        <div class="utilisateur">
+         <div class="alert"><i class="fa fa-bell" aria-hidden="true"></i></div>
+       <div class="icone3">
+           <img src="../Doc-image/directeur genera.jpeg" alt="">
        </div>
-        
-       <header class="header">
-         <div class="search"><input type="search" placeholder="search">
-            <i class="fa fa-search" aria-hidden="true"></i></div>
-
-         <div class="utilisateur">
-          <div class="alert"><i class="fa fa-bell" aria-hidden="true"></i></div>
-        <div class="icone3">
-            <img src="../Doc-image/directeur genera.jpeg" alt="">
+       <div class="ecrit">ADMNI</div>
+   </div>
+      </header>
+      <div class="en-gros">
+      <aside class="sidenav">
+        <div class="sidenav__close-icon">
+           <img src="../Doc-image/main-verte.jpeg" alt="">
+           <div class="titre">
+               <h1>RH <span>PLUS</span> </h1>
+           </div>
         </div>
-        <div class="ecrit">ADMNI</div>
-    </div>
-       </header>
-     
-       <aside class="sidenav">
-         <div class="sidenav__close-icon">
-            <img src="../Doc-image/main-verte.jpeg" alt="">
-            <div class="titre">
-                <h1>RH <span>PLUS</span> </h1>
-            </div>
-         </div>
-         <ul class="sidenav__list">
-          <li class="sidenav__list-item"><i class="fa fa-tachometer" aria-hidden="true"></i> Tableau </li>
-           <a href="./personnel.html"><li class="sidenav__list-item"><i class="fa fa-users" aria-hidden="true"></i>Personnel</li></a>
-           <li class="sidenav__list-item"><i class="fa fa-tasks" aria-hidden="true"></i> Taches</li>
-           <li class="sidenav__list-item">Item Four</li>
-           <li class="sidenav__list-item">Item Five</li>
-         </ul>
-       </aside>
-     
-       <main class="main">
-         
-     
-         <div class="main-overview">
-           <div class="overviewcard">
-             <div class="overviewcard__icon">Overview</div>
-             <div class="overviewcard__info">Card</div>
-           </div>
-           <div class="overviewcard">
-             <div class="overviewcard__icon">Overview</div>
-             <div class="overviewcard__info">Card</div>
-           </div>
-           <div class="overviewcard">
-             <div class="overviewcard__icon">Overview</div>
-             <div class="overviewcard__info">Card</div>
-           </div>
-           <div class="overviewcard">
-             <div class="overviewcard__icon">Overview</div>
-             <div class="overviewcard__info">Card</div>
-           </div>
-         </div>
-     
-         <div class="main-cards">
-         
-         </div>
-       </main>
-     
-       
-     </div>
+        <ul class="sidenav__list">
+         <li class="sidenav__list-item"><i class="fa fa-tachometer" aria-hidden="true"></i> Tableau </li>
+          <a href="./personnel.html"><li class="sidenav__list-item"><i class="fa fa-users" aria-hidden="true"></i>Personnel</li></a>
+          <li class="sidenav__list-item"><i class="fa fa-tasks" aria-hidden="true"></i> Taches</li>
+          <li class="sidenav__list-item">Item Four</li>
+          <li class="sidenav__list-item">Item Five</li>
+        </ul>
+      </aside>
 
-     <script src="../Doc-js/dashboard.js"></script>
-</body>
+      <div class="tout-cage">
+        <div class="carre1">
+
+        </div>
+
+        <div class="carre1">
+
+        </div>
+
+        <div class="carre1">
+
+        </div>
+        <div class="table-section">
+            <table class="table">
+               <thead>
+                   <th>N.</th>
+                   <th>Nom/Prenoms</th>
+                   <th>Matricule</th>
+                   <th>Genre</th>
+                   <th>Mobile</th>
+                   <th>Email</th>
+                   <th>Date d'insertion</th>
+                   <th>Adresse</th>
+                   <th>Action</th>
+               </thead>
+               <tr>
+                   <td>1</td>
+                   <td>Kouame Franck</td>
+                   <td>Mj0054</td>
+                   <td>M</td>
+                   <td>07-89-10-57-91</td>
+                   <td>azerty@.com</td>
+                   <td>15/03/2022</td>
+                   <td>Gonzaqueville</td>
+                   <td>
+                     <button><i class="fa fa-pencil-square" aria-hidden="true"></i></button>
+                       <button><i class="fa fa-trash" aria-hidden="true"></i></button>
+                   </td>
+               </tr>
+        
+
+      </div>
+    </div>
+     
+      
+
+    <script src="../Doc-js/dashboard.js"></script>
+  </body>
 </html>
